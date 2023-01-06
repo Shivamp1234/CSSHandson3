@@ -1,0 +1,152 @@
+body{
+    background-color: gray;
+}
+.box{
+    background-color: white;
+    border: 10px solid red;
+    border-radius: 15px;
+    text-align: center;
+    box-shadow: 10px 10px purple;
+}
+#box1{
+    height: 130px;
+    width: 400px;
+    line-height: 40px;
+    color: brown;
+    font-style: italic;
+    font-size: 26px;
+    font-weight: bolder;
+    margin: auto;
+    text-shadow: 2px 2px 3px;
+}
+.container1{
+    height: 640px;
+    border: 10px solid green;
+    display: flex;
+    position: relative;
+}
+#box2{
+    box-sizing: border-box;
+    height:250px;
+    width: 250px;
+    font-size: x-large;
+    font-weight: 900;
+    line-height: 50px;
+    color: rgb(2, 2, 34);
+    text-shadow: 2px 1px 3px;
+}
+#box3{
+    box-sizing: border-box;
+    height:250px;
+    width: 250px;
+    position: absolute;
+    left: 1000px;
+    padding:15px;
+    text-shadow: 2px 1px 3px;
+}
+#box4{
+    box-sizing: border-box;
+    height:250px;
+    width: 250px;
+    position: absolute;
+    left: 1000px;
+    top: 350px;
+    padding-top: 15px;
+    font-size: x-large;
+    font-weight: 900;
+    color: rgb(2, 2, 34);
+    text-shadow: 2px 1px 3px;
+}
+#box5{
+    box-sizing: border-box;
+    height:250px;
+    width: 250px;
+    position: absolute;
+    top: 350px;
+    font-size: x-large;
+    font-weight: 900;
+    text-align: left;
+    padding-top: 20px;
+    color: rgb(2, 2, 34);
+    text-shadow: 2px 1px 3px;
+}
+.offerbox{
+    box-sizing: border-box;
+    height: 100px;
+    width: 500px;
+    background-color: greenyellow;
+    border: 10px solid red;
+    border-radius: 15px;
+    display: flex;justify-content: space-evenly;
+    color:maroon;
+    text-align: center;
+    position: fixed;
+    top: 435px;
+    left: 400px;
+    box-shadow: 10px 10px purple;
+}
+.offer1{
+    font-size: x-large;
+    font-weight: bolder;
+    padding-top: 20px;
+    font-style: italic;
+}
+.offer2{
+    font-size: larger;
+    font-weight: 800;
+    font-style: italic;
+    padding-top: 15px;
+}
+button{
+    background-color: red;
+    border: 2px solid black;
+    border-radius: 20px;
+}
+label{
+    font-size: 15px;
+    font-weight: bolder;
+}
+.container2{
+    height: 640px;
+    width: 700px;
+    border: 10px solid purple;
+    background-color: green;
+    margin: auto;
+    text-align: center;
+}
+.boxa{
+    background-color: khaki;
+    font-style: italic;
+}
+.samebox{
+    display:flex;justify-content: space-between;
+    line-height: 30px;
+    font-weight: 530;
+    font-size: small;
+    font-weight: bolder;
+}
+.endbox1{
+    height: 250px;
+    width: 340px;
+    margin-left: 5px;
+}
+.endbox2{
+    height: 250px;
+    width: 340px;
+    margin-right: 5px;
+}
+.endbox3{
+    height:260px;
+    width: 705px;
+    line-height: 30px;
+    font-size: small;
+    font-weight: bolder;
+    margin-top: 15px;
+    margin-left: 5px;
+    padding-top: 5px;
+    font-weight: bolder;
+}
+h2{
+    font-size: x-large;
+    font-weight: 1200;
+}
